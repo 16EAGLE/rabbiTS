@@ -1,0 +1,27 @@
+Package: temp
+Type: Package
+Title: Time Series Calculations and Visualization
+Version: 0.0.3
+Date: 2018-05-17
+Depends: R (>= 2.10)
+Authors@R: c(
+    person("Thorsten", "Dahms", role=c("cre", "aut"), email="thorsten.dahms@uni-wuerzburg.de"),
+    person("Jakob", "Schwalb-Willmann", role ="aut", email="movevis@schwalb-willmann.de"))
+Description: Function to compute and visualize time series data 
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports:
+  raster,
+  sf,
+  sp,
+  rgdal,
+  mapview,
+  mapedit,
+  rasterVis,
+  gridExtra,
+  RStoolbox,
+  ggplot2,
+  animation
+RoxygenNote: 6.0.1
+Suggests: testthat
