@@ -4,8 +4,9 @@
 \alias{animate_series}
 \title{Animate a time series of rasters}
 \usage{
-animate_series(r, dates, breaks, param = NULL, param.name = "Parameter",
-  file.name = tempfile(fileext = ".gif"), ...)
+animate_series(r, dates, breaks, param = NULL,
+  param.name = "Parameter", file.name = tempfile(fileext = ".gif"),
+  ...)
 }
 \arguments{
 \item{r}{raster or stack of rasters, each representing a different acquisition time.}

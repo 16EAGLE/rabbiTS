@@ -1,8 +1,8 @@
-Package: temp
+Package: rabbiTS
 Type: Package
-Title: Time Series Calculations and Visualization
-Version: 0.0.3
-Date: 2018-05-17
+Title: Spatial Time Series Analysis and Visualization
+Version: 0.0.1
+Date: 2019-01-16
 Depends: R (>= 2.10)
 Authors@R: c(
     person("Thorsten", "Dahms", role=c("cre", "aut"), email="thorsten.dahms@uni-wuerzburg.de"),
@@ -12,16 +12,17 @@ License: GPL-3
 Encoding: UTF-8
 LazyData: true
 Imports:
-  raster,
-  sf,
-  sp,
-  rgdal,
-  mapview,
-  mapedit,
-  rasterVis,
-  gridExtra,
-  RStoolbox,
-  ggplot2,
-  animation
-RoxygenNote: 6.0.1
+    raster,
+    sf,
+    sp,
+    rgdal,
+    mapview,
+    mapedit,
+    rasterVis,
+    gridExtra,
+    RStoolbox,
+    ggplot2,
+    animation,
+    Rcpp
+RoxygenNote: 6.1.1
 Suggests: testthat
