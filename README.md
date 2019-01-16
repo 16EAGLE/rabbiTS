@@ -4,9 +4,9 @@ Spatial data time series analysis and visualization in R
 
 ## Installation
 
-You can install the released version of rabbiTS from [CRAN](https://CRAN.R-project.org) with:
+You can install the development version of rabbiTS from GitHub:
 
 ``` r
-install.packages("rabbiTS")
+devtools::install_github("16eagle/rabbiTS")
 ```
 
