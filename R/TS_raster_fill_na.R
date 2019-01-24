@@ -29,7 +29,7 @@ TS_raster_fill_na <- function(stack_obj){
     # Check if there are NA values to replace
     if (any(which(is.na(temp_matrix)))) {
     # Start processing  
-      plan(multiprocess) #Set up for Multi core processing 
+      plan(multiprocess) #Setup for Multi core processing 
     # Start of interpolation to temporary matrix  
       result <- future_apply(temp_matrix, 2, FUN = seq_fill_na)
     # Writing results into original Stack or Brick Structure  
@@ -41,10 +41,10 @@ TS_raster_fill_na <- function(stack_obj){
       print("No NA values in TimeSeries Object. Returned original input")
       return(stack_obj)
     }
-    # when finished, return the result
+    # When finished, return the result
     return(stack_obj)
   } else {
-    # return input if is not stack or brick object
+    # Return input if is not stack or brick object
     print("Input is not a RasterStack or RasterBrick")
     return(stack_obj)
   }
