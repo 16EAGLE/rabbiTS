@@ -23,6 +23,9 @@ Imports:
     RStoolbox,
     ggplot2,
     animation,
-    Rcpp
+    Rcpp,
+    future,
+    future.apply,
+    zoo,
 RoxygenNote: 6.1.1
 Suggests: testthat
